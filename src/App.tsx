@@ -8,16 +8,22 @@ import About from "./pages/About";
 import Navigationbar from "./components/Navigationbar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Nomatch from "./components/Nomatch";
+import Layout from "./components/Layout";
+
 function App() {
   return (
     <Router>
       <Navigationbar />
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      {/* <Header /> */}
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route element={<Nomatch />} />
+        </Routes>
+      </Layout>
       <Footer />
     </Router>
   );
