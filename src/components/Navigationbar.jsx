@@ -3,7 +3,7 @@ import { Nav, NavLink, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 const Navigationbar = () => {
   return (
-    <Navbar  collapseOnSelect expand="sm" bg="dark" variant="dark">
+    <Navbar  collapseOnSelect expand="sm" bg="dark" variant="dark" position="fixed">
       <Navbar.Toggle
         aria-controls="navbarScroll"
         data-bs-target="#navbarScroll"

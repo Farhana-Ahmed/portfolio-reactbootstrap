@@ -1,10 +1,17 @@
+import { MDBCardText } from 'mdb-react-ui-kit';
 import React from 'react'
 import { Container, Row, Col, Card } from "react-bootstrap";
+import Skills from '../components/Skills';
 
 const Home = () => {
   return (
     <div>
-      <Container>
+           <MDBCardText className="text-muted mb-4 green">
+     Passionate & curious junior developer with good problem solving skills. Enthusiastic, responsible & flexible person with ability to learn and collaborate in rapidly changing environments.
+      Worked as a backend developer in India and now actively looking for a challengin role as a Fullstack developer.Skills include Java,Javascript/Typescript,React,HTML,CSS,TDD,CI/CD,Agile,kanban.
+     </MDBCardText>
+     <Skills/>
+      {/* <Container>
        <Row>
         <Col>
           <Card className='my-3'>
@@ -20,7 +27,7 @@ const Home = () => {
           </Card> 
         </Col>
       </Row>
-      </Container>
+      </Container> */}
     </div>
   )
 }
