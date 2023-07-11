@@ -8,15 +8,12 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import {
   MDBFooter,
-  MDBContainer,
-  MDBRow,
-  MDBCol,
-  MDBIcon,
+ 
 } from "mdb-react-ui-kit";
 
-interface FooterProps {
-  image: string;
-}
+// interface FooterProps {
+//   image: string;
+// }
 
 const Footer = () => {
   return (

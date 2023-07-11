@@ -1,8 +1,8 @@
 import React from "react";
-import { titles } from "../components/Utils/Constants";
+// import { titles } from "../components/Utils/Constants";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import backend from "../assets/backend.jpeg";
-import frontend from "../assets/frontend.jpeg";
+// import frontend from "../assets/frontend.jpeg";
 import other from "../assets/tools.jpeg";
 
 // interface OverviewProps {

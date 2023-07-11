@@ -1,17 +1,17 @@
-import { MDBCard, MDBCardBody, MDBCardText } from 'mdb-react-ui-kit';
+import { MDBCard, MDBCardBody } from 'mdb-react-ui-kit';
 import React from 'react'
-import { Container, Row, Col, Card } from "react-bootstrap";
-import Skills from '../components/Skills';
+// import { Container, Row, Col, Card } from "react-bootstrap";
+// import Skills from '../components/Skills';
 import OverviewList from '../components/OverviewList';
 
 const Home = () => {
   return (
-    <div >
-      <MDBCard alignment='center' className='mt-4'>
-           <MDBCardText className="text-muted mb-4 mt-4 d-flex justify-content-center">
+    <div className='' >
+      <MDBCard alignment='center' className='mt-4 bg-info bg-opacity-50'>
+           <MDBCardBody className="text-muted mb-4 mt-4 d-flex justify-content-center">
      Passionate & curious junior developer with good problem solving skills. Enthusiastic, responsible & flexible person with ability to learn and collaborate in rapidly changing environments.
       Worked as a backend developer in India and now actively looking for a challenging role as a Fullstack developer.Skills include Java,Javascript/Typescript,React,HTML,CSS,TDD,CI/CD,Agile,kanban.
-     </MDBCardText>
+     </MDBCardBody>
      </MDBCard>
      <OverviewList />
      {/* <Skills/>
