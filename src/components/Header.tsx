@@ -30,8 +30,8 @@ const Header = () => {
     //     Fullstack Developer
     //   </MDBTypography>
     // </div>
-    <div className="">
-      <MDBContainer className="bg-success p-2 text-light bg-opacity-50" r>
+    <div className="bg-success p-2 text-light bg-opacity-50">
+      <MDBContainer className="" >
         <MDBRow className="justify-content-center">
           <MDBCol>
             <MDBCard style={{ borderRadius: "15px" }}>
@@ -56,7 +56,19 @@ const Header = () => {
             </MDBCard>
           </MDBCol>
         </MDBRow>
+        <MDBRow className="justify-content-center">
+        <MDBCol>
+      <MDBCard alignment='center' className='mt-4 ' style={{ borderRadius: "15px" }}>
+        <h3 className="p-0 mb-0 text-">About me</h3>
+           <MDBCardBody className="text-muted mb-4 mt-4 d-flex justify-content-center">
+     Passionate & curious junior developer with good problem solving skills. Enthusiastic, responsible & flexible person with ability to learn and collaborate in rapidly changing environments.
+      Worked as a backend developer in India and now actively looking for a challenging role as a Fullstack developer.
+     </MDBCardBody>
+     </MDBCard>
+     </MDBCol>
+     </MDBRow>
       </MDBContainer>
+      
     </div>
   );
 };
